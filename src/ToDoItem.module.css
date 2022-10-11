@@ -1,0 +1,38 @@
+.todoItem {
+  background-color: #16918e;
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin-top: 20px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.buttonsContainer {
+  display: flex;
+  align-items: center;
+}
+
+.accomplished {
+  background-color: #47de10;
+  margin-left: 20px;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.delete {
+  background-color: rgb(171, 7, 7);
+  margin-left: 20px;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.delete:active,
+.accomplished:active {
+  scale: 0.9;
+}

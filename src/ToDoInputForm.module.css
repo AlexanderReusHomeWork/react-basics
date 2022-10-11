@@ -1,0 +1,36 @@
+.form {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: rgb(139, 0, 149);
+}
+
+.title label,
+.description label {
+  color: #fff;
+}
+
+.title input,
+.description input {
+  border-radius: 10px;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 5px;
+}
+
+.title input:focus,
+.description input:focus {
+  outline: none;
+}
+
+.btn {
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(199, 99, 22);
+  color: #fff;
+  width: 100px;
+}
+
+.btn:active {
+  scale: 0.9;
+}
